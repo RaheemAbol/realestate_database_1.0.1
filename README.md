@@ -24,7 +24,7 @@
   2. **Retrieve all properties, including the property address, city, state, and listing price, along with their transaction details (transaction ID and sale price), even if the property has not been sold yet.**
      - Use a LEFT JOIN between the `Properties` and `Transactions` tables.
   3. **List all clients, including their first name, last name, email, and phone number, along with the properties they have purchased (include property address, city, and state), even if they haven't purchased anything.**
-     - Use a LEFT JOIN between the `Clients` and `Transactions` tables.
+     - Use a LEFT JOIN between the `Clients`,`Properties` and `Transactions` tables.
   4. **Retrieve all property types (e.g., Single Family, Condo), including the type name and the details of properties listed under each type (address, city, state), even if no properties are listed under that type.**
      - Use a LEFT JOIN between the `PropertyTypes` and `Properties` tables.
 
