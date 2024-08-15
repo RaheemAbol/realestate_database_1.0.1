@@ -3,7 +3,7 @@
 #### **Ticket 1: Setup the Real Estate Database**
 - **Tasks:**
   - Set up the database using the provided SQL script.
-  - [Download healthcare_system.sql](https://raw.githubusercontent.com/RaheemAbol/realestate_database_1.0.1/main/realestate_database.sql)
+  - [Download realestate_database.sql](https://raw.githubusercontent.com/RaheemAbol/realestate_database_1.0.1/main/realestate_database.sql)
   - Ensure that all tables are created, and data is inserted correctly.
 
 #### **Ticket 2: INNER JOIN**
